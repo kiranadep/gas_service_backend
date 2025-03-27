@@ -1,0 +1,14 @@
+<!-- service_requests/view_request.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Request</title>
+</head>
+<body>
+    <h1>Service Request Details</h1>
+    <p>Request ID: {{ request_obj.id }}</p>
+    <p>Request Description: {{ request_obj.description }}</p>
+    
+    <a href="{% url 'dashboard' %}">Back to Dashboard</a>
+</body>
+</html>
